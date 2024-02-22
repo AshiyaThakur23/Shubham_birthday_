@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Additional Photos</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Include your CSS file -->
+</head>
+<body>
+  <audio autoplay id="audio">
+    <source src="Sound.mp3" type="audio/mpeg">
+  </audio>
+  <div class="additional-content">
+    <h1 class="heading">SOULMATES</h1> <!-- Heading centered at the top -->
+    <div class="additional-photos">
+      <div class="additional-photo">
+        <img src="pictures/AS.jpg" alt="Additional Photo 1"><br>
+        <div class="name">ASHIYA</div>
+      </div>
+      <div class="additional-photo">
+        <img src="pictures/IMG_20240201_031636_501.jpg" alt="Additional Photo 2"><br>
+        <div class="name">SHUBHAM</div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script>
+    function redirectToIndexPage() {
+      window.location.href = "index.html"; // Redirect to the index.html page
+    }
+    setTimeout(redirectToIndexPage, 6000);
+  
+    document.addEventListener('DOMContentLoaded', function() {
+      const audio = document.getElementById('audio');
+      const storedTime = localStorage.getItem('audioTime');
+      if (storedTime !== null) {
+        audio.currentTime = parseFloat(storedTime);
+      }
+    });
+  
+    
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
