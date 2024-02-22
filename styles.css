@@ -94,7 +94,7 @@ body, html {
 
 .text {
   color: white;
-  font-size: 350px; /* Increase font size */
+  font-size: 150px; /* Increase font size */
   font-weight: bold;
   text-align: center;
 }
@@ -138,7 +138,7 @@ body {
 
 .heading {
   margin-bottom: 20px; /* Add some spacing between heading and photos */
-  font-size: 40px;
+  font-size: 100px;
   font-style: italic;
   animation: slideIn 1s ease forwards; /* Apply the animation */
 }
@@ -160,6 +160,6 @@ body {
   object-fit: cover;
 }
 .name{
-  font-size: 40px;
+  font-size: 70px;
   font-style: italic;
 }
