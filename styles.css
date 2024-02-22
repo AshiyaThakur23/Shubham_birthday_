@@ -94,7 +94,7 @@ body, html {
 
 .text {
   color: white;
-  font-size: 150px; /* Increase font size */
+  font-size: 70px; /* Increase font size */
   font-weight: bold;
   text-align: center;
 }
@@ -108,7 +108,7 @@ body, html {
   }
 }
 .cake-gif {
-  width: 1000px; /* Adjust size as needed */
+  width: 300px; /* Adjust size as needed */
 }
 
 body {
@@ -138,7 +138,7 @@ body {
 
 .heading {
   margin-bottom: 20px; /* Add some spacing between heading and photos */
-  font-size: 100px;
+  font-size: 30px;
   font-style: italic;
   animation: slideIn 1s ease forwards; /* Apply the animation */
 }
@@ -160,6 +160,6 @@ body {
   object-fit: cover;
 }
 .name{
-  font-size: 70px;
+  font-size: 40px;
   font-style: italic;
 }
