@@ -1,7 +1,7 @@
 // Redirect to "additional_photos.html" after 11 seconds (11000 milliseconds)
 setTimeout(function() {
     window.location.href = "additional_photos.html";
-  }, 16000);
+  }, 20000);
   
   // Check for the presence of the query parameter "fromAnimation" when the window is loaded
   window.onload = function() {
